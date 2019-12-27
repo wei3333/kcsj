@@ -33,7 +33,7 @@ public final class AccountService {
     public boolean saveOrDrawMoney(int acctId, Double balanceAfterSave) throws SQLException, ClassNotFoundException {
         return accountDao.saveOrDrawMoney(acctId, balanceAfterSave);
     }
-    public boolean transfer(int outAcct, int inAcct, int amount){
+    public boolean transfer(int outAcct, int inAcct, double amount){
         return accountDao.transfer(outAcct,inAcct,amount);
     }
 

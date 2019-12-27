@@ -136,7 +136,7 @@ public final class AccountDao {
     }
 
     //转账
-    public boolean transfer(int outAcct, int inAcct, int amount) {
+    public boolean transfer(int outAcct, int inAcct, double amount) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         boolean transfered = false;

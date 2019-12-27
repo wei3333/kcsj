@@ -31,7 +31,7 @@ public class TransferController extends HttpServlet {
             } else {
                 int outAcct = Integer.parseInt(outAcct_str);
                 int inAcct = Integer.parseInt(inAcct_str);
-                int amount = Integer.parseInt(amount_str);
+                double amount = Double.parseDouble(amount_str);
                 boolean transfered = AccountService.getInstance().transfer(outAcct, inAcct, amount);
                 if (transfered) {
                     SimpleDateFormat df = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

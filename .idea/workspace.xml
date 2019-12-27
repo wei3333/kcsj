@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="kcsj:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf74324f-752b-4cfd-8042-2edab93c9555" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/kcsj_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/kcsj_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kcsj.iml" beforeDir="false" afterPath="$PROJECT_DIR$/kcsj.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kcsj/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test1.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kcsj@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kcsj@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="kcsj@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="kcsj: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Kechengsj\kcsj\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1V2t3xN3MDRpXnIqKHkHsXdFrRB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Kechengsj\kcsj\web" />
+      <recent name="D:\Kechengsj\kcsj\src\service" />
+      <recent name="D:\Kechengsj\kcsj\src\dao" />
+      <recent name="D:\Kechengsj\kcsj\src\controller" />
+      <recent name="D:\Kechengsj\kcsj\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.0.M9">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <module name="kcsj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <module name="kcsj" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="time" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="controller.time" />
+      <module name="kcsj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.0.M9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M9" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="kcsj:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_kcsj" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62542" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="kcsj:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.time" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.0.M9" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.time" />
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <option name="contentProportion" value="0.09745533" />
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Finished" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf74324f-752b-4cfd-8042-2edab93c9555" name="Default Changelist" comment="" />
+      <created>1576462821658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576462821658</updated>
+      <workItem from="1576462824671" duration="3227000" />
+      <workItem from="1576473557093" duration="127000" />
+      <workItem from="1576478487718" duration="981000" />
+      <workItem from="1576568248203" duration="878000" />
+      <workItem from="1576651231784" duration="2744000" />
+      <workItem from="1576742604144" duration="462000" />
+      <workItem from="1576743148038" duration="3710000" />
+      <workItem from="1576746991712" duration="3477000" />
+      <workItem from="1576750824836" duration="3220000" />
+      <workItem from="1576807349394" duration="2958000" />
+      <workItem from="1576811286792" duration="293000" />
+      <workItem from="1576811598718" duration="398000" />
+      <workItem from="1576812015037" duration="1124000" />
+      <workItem from="1576813342021" duration="1519000" />
+      <workItem from="1576814973717" duration="4792000" />
+      <workItem from="1576840953748" duration="982000" />
+      <workItem from="1576841957891" duration="421000" />
+      <workItem from="1576842399146" duration="1554000" />
+      <workItem from="1576846351722" duration="1028000" />
+      <workItem from="1576847433127" duration="901000" />
+      <workItem from="1576849544688" duration="568000" />
+      <workItem from="1576850149446" duration="837000" />
+      <workItem from="1576851222782" duration="1457000" />
+      <workItem from="1576853666999" duration="512000" />
+      <workItem from="1576896365462" duration="1500000" />
+      <workItem from="1576897903332" duration="728000" />
+      <workItem from="1576899432498" duration="320000" />
+      <workItem from="1576899773905" duration="373000" />
+      <workItem from="1576900172684" duration="638000" />
+      <workItem from="1576900836236" duration="2142000" />
+      <workItem from="1576907318307" duration="1845000" />
+      <workItem from="1576909187722" duration="371000" />
+      <workItem from="1576909582952" duration="1928000" />
+      <workItem from="1576911537805" duration="1047000" />
+      <workItem from="1576912865799" duration="1503000" />
+      <workItem from="1576916186347" duration="691000" />
+      <workItem from="1576916902358" duration="312000" />
+      <workItem from="1576917236796" duration="336000" />
+      <workItem from="1576917601809" duration="1711000" />
+      <workItem from="1576931291161" duration="51000" />
+      <workItem from="1576931359721" duration="935000" />
+      <workItem from="1576932899634" duration="760000" />
+      <workItem from="1576935292507" duration="125000" />
+      <workItem from="1576935435169" duration="195000" />
+      <workItem from="1576984761598" duration="372000" />
+      <workItem from="1576985170399" duration="1001000" />
+      <workItem from="1576986243781" duration="1012000" />
+      <workItem from="1576987284766" duration="200000" />
+      <workItem from="1576987520195" duration="3015000" />
+      <workItem from="1576995851778" duration="1127000" />
+      <workItem from="1576997000314" duration="1058000" />
+      <workItem from="1576998078782" duration="235000" />
+      <workItem from="1576998340064" duration="170000" />
+      <workItem from="1576998534330" duration="1576000" />
+      <workItem from="1577000158804" duration="5317000" />
+      <workItem from="1577005553001" duration="654000" />
+      <workItem from="1577007499853" duration="1850000" />
+      <workItem from="1577009968556" duration="2021000" />
+      <workItem from="1577012128167" duration="1743000" />
+      <workItem from="1577016497814" duration="810000" />
+      <workItem from="1577017329761" duration="623000" />
+      <workItem from="1577017970263" duration="2341000" />
+      <workItem from="1577021096487" duration="1937000" />
+      <workItem from="1577023057188" duration="253000" />
+      <workItem from="1577023328739" duration="483000" />
+      <workItem from="1577023835849" duration="741000" />
+      <workItem from="1577024597861" duration="922000" />
+      <workItem from="1577075822578" duration="530000" />
+      <workItem from="1577076376229" duration="1092000" />
+      <workItem from="1577077505485" duration="1528000" />
+      <workItem from="1577079068394" duration="670000" />
+      <workItem from="1577097109046" duration="9271000" />
+      <workItem from="1577108870352" duration="256000" />
+      <workItem from="1577109150142" duration="656000" />
+      <workItem from="1577109825998" duration="925000" />
+      <workItem from="1577110770008" duration="1203000" />
+      <workItem from="1577153693857" duration="2736000" />
+      <workItem from="1577160582405" duration="561000" />
+      <workItem from="1577161171937" duration="529000" />
+      <workItem from="1577161721471" duration="1049000" />
+      <workItem from="1577163024705" duration="282000" />
+      <workItem from="1577163329257" duration="671000" />
+      <workItem from="1577171330478" duration="1058000" />
+      <workItem from="1577172423928" duration="3408000" />
+      <workItem from="1577181475907" duration="2104000" />
+      <workItem from="1577188324489" duration="3358000" />
+      <workItem from="1577192009328" duration="3448000" />
+      <workItem from="1577195495890" duration="1546000" />
+      <workItem from="1577197067428" duration="465000" />
+      <workItem from="1577198018230" duration="190000" />
+      <workItem from="1577198493545" duration="124000" />
+      <workItem from="1577200045738" duration="2133000" />
+      <workItem from="1577205765601" duration="1720000" />
+      <workItem from="1577207526589" duration="865000" />
+      <workItem from="1577208422593" duration="569000" />
+      <workItem from="1577239842819" duration="3380000" />
+      <workItem from="1577246772162" duration="595000" />
+      <workItem from="1577247388898" duration="790000" />
+      <workItem from="1577251518039" duration="946000" />
+      <workItem from="1577252914284" duration="238000" />
+      <workItem from="1577253171344" duration="2598000" />
+      <workItem from="1577256078599" duration="445000" />
+      <workItem from="1577256544411" duration="609000" />
+      <workItem from="1577257174319" duration="171000" />
+      <workItem from="1577257365451" duration="396000" />
+      <workItem from="1577257781023" duration="234000" />
+      <workItem from="1577258035465" duration="283000" />
+      <workItem from="1577258341117" duration="395000" />
+      <workItem from="1577258756508" duration="254000" />
+      <workItem from="1577259036957" duration="340000" />
+      <workItem from="1577259408245" duration="233000" />
+      <workItem from="1577259663144" duration="520000" />
+      <workItem from="1577260204198" duration="1900000" />
+      <workItem from="1577262134683" duration="1037000" />
+      <workItem from="1577263752565" duration="156000" />
+      <workItem from="1577263934668" duration="78000" />
+      <workItem from="1577266115551" duration="120000" />
+      <workItem from="1577325391005" duration="241000" />
+      <workItem from="1577325653004" duration="129000" />
+      <workItem from="1577325860192" duration="6448000" />
+      <workItem from="1577342374609" duration="1043000" />
+      <workItem from="1577348323248" duration="8297000" />
+      <workItem from="1577360898993" duration="896000" />
+      <workItem from="1577361815635" duration="4798000" />
+      <workItem from="1577367176979" duration="944000" />
+      <workItem from="1577368242171" duration="389000" />
+      <workItem from="1577368658352" duration="542000" />
+      <workItem from="1577369221290" duration="10891000" />
+      <workItem from="1577380165803" duration="693000" />
+      <workItem from="1577380879184" duration="285000" />
+      <workItem from="1577381183030" duration="66000" />
+    </task>
+    <task id="LOCAL-00001" summary="wei">
+      <created>1576478815388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576478815388</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="wei" />
+    <option name="LAST_COMMIT_MESSAGE" value="wei" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="582" y="282" key="#SQL_Dialects" timestamp="1577100184854">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="282" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1577100184854" />
+    <state x="552" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576996008030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="180" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576996008030" />
+    <state x="765" y="238" key="#com.intellij.ide.util.MemberChooser" timestamp="1577108750164">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="238" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1577108750164" />
+    <state x="344" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577003209376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="344" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577003209376" />
+    <state x="572" y="113" key="CommitChangelistDialog2" timestamp="1576478814843">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="572" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1576478814843" />
+    <state x="806" y="325" key="FileChooserDialogImpl" timestamp="1577192919330">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="806" y="325" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1577192919330" />
+    <state x="823" y="414" key="Github.ShareDialog" timestamp="1576478547142">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="823" y="414" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576478547142" />
+    <state x="816" y="223" key="Github.UntrackedFilesDialog" timestamp="1576478567875">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="816" y="223" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1576478567875" />
+    <state width="1666" height="326" key="GridCell.Tab.0.bottom" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.0.center" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.0.left" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.0.right" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.1.bottom" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.1.center" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.1.left" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.1.right" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.2.bottom" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.2.center" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.2.left" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="1666" height="326" key="GridCell.Tab.2.right" timestamp="1577381247943">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1666" height="326" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1577381247943" />
+    <state width="220" height="477" key="HiddenNamespacesPopup" timestamp="1576471064211">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="220" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1576471064211" />
+    <state x="463" y="151" key="SettingsEditor" timestamp="1576810145187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1576810145187" />
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2" timestamp="1576478819187">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1576478819187" />
+    <state x="840" y="394" width="336" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1577002377498">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="840" y="394" width="336" height="252" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1577002377498" />
+    <state x="1181" y="275" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1577330068661">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1181" y="275" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1577330068661" />
+  </component>
+</project>

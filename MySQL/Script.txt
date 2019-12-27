@@ -1,0 +1,90 @@
+create table atm
+(
+    id      bigint auto_increment
+        primary key,
+    no      varchar(20)  not null,
+    address varchar(100) null,
+    constraint no
+        unique (no)
+);
+
+create table role
+(
+    id          bigint auto_increment
+        primary key,
+    no          varchar(10) not null,
+    description varchar(20) not null
+);
+
+create table custinfo
+(
+    id      bigint(6) auto_increment
+        primary key,
+    name    varchar(20)  not null,
+    pid     char(18)     not null,
+    phone   varchar(11)  not null,
+    address varchar(500) null,
+    constraint pid
+        unique (pid)
+);
+
+create table account
+(
+    id      bigint(8) auto_increment
+        primary key,
+    acct    char(12)       not null,
+    passwd  char(6)        not null,
+    cust_id bigint(6)      not null,
+    balance decimal(10, 2) not null,
+    address varchar(500)   null,
+    role_id bigint         not null,
+    constraint acct
+        unique (acct),
+    constraint account_cust_id_fk
+        foreign key (cust_id) references custinfo (id),
+    constraint account_role_id_fk
+        foreign key (role_id) references role (id)
+);
+
+create table deal
+(
+    id        bigint(10) auto_increment
+        primary key,
+    acct_id   bigint(8)  not null,
+    seq       char(50)   not null,
+    dealmoney decimal(5) not null,
+    rdate     datetime   not null,
+    dtype     varchar(8) not null,
+    constraint deal_acct_id_fk
+        foreign key (acct_id) references account (id)
+);
+
+
+存储过程
+create procedure TRANSFER(@outAcct char(12),@inAcct char(12),@amount float)
+as declare
+@totalDepositOut float,
+@totalDepositIn float,
+@inAcctnum char(12)
+begin
+select @totalDepositOut = balance from account where acct = @outAcct;
+if @totalDepositOut is null
+begin
+rollback;
+return;
+end;
+if @totalDepositOut < @amount
+begin
+rollback;
+return;
+end;
+select @inAcctnum = acct from account where acct = @inAcct;
+if @inAcctnum is null
+begin
+rollback;
+return;
+end;
+update account set balance = balance - @amount where acct = @outAcct;
+update account set balance = balance + @amount where acct = @inAcct;
+commit;
+end;/

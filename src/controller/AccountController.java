@@ -94,9 +94,9 @@ public class AccountController extends HttpServlet {
             throws ServletException, IOException {
         //读取参数id
         String id_str = request.getParameter("id");
-        System.out.println(id_str);
+        //System.out.println(id_str);
         String acct_str = request.getParameter("acct");
-        System.out.println(acct_str);
+        //System.out.println(acct_str);
         //创建JSON对象message，以便往前端响应信息
         JSONObject message = new JSONObject();
         try {

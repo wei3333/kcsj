@@ -104,8 +104,8 @@ public class AccountController extends HttpServlet {
             if (id_str==null && acct_str==null) {
                 responseAccounts(response);
             } else if(id_str==null && acct_str!=null){
-                int acct = Integer.parseInt(acct_str);
-                responseAccountByAcct(acct,response);
+                // int acct = Integer.parseInt(acct_str);
+                responseAccountByAcct(acct_str,response);
             } else {
                 int id = Integer.parseInt(id_str);
                 responseAccount(id, response);
@@ -133,7 +133,7 @@ public class AccountController extends HttpServlet {
         //浏览器展示结果
         response.getWriter().println(account_json);
     }
-    private void responseAccountByAcct(int acct, HttpServletResponse response)
+    private void responseAccountByAcct(String acct, HttpServletResponse response)
             throws ServletException, IOException, SQLException, ClassNotFoundException {
         //根据id查找
         Account account = AccountService.getInstance().findByAcct(acct);

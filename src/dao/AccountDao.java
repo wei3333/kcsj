@@ -86,7 +86,7 @@ public final class AccountDao {
     }
 
     //按账号查询单个账户记录
-    public Account findByAcct(int acct) throws SQLException {
+    public Account findByAcct(String acct) throws SQLException {
         //声明一个Account类型的变量
         Account account = null;
         //获得数据库连接对象
@@ -95,7 +95,7 @@ public final class AccountDao {
         //在该连接上创建预编译语句对象
         PreparedStatement preparedStatement = connection.prepareStatement(deleteAccount_sql);
         //为预编译参数赋值
-        preparedStatement.setInt(1, acct);
+        preparedStatement.setString(1, acct);
         //执行预编译语句
         ResultSet resultSet = preparedStatement.executeQuery();
         if (resultSet.next()) {
@@ -116,7 +116,7 @@ public final class AccountDao {
     }
 
     //根据账号查询余额
-    public double findBalanceByAcct(Integer acct) throws SQLException {
+    public double findBalanceByAcct(String acct) throws SQLException {
         //声明一个Account类型的变量
         double balance = 0;
         //获得数据库连接对象
@@ -124,7 +124,7 @@ public final class AccountDao {
         //在该连接上创建预编译语句对象
         PreparedStatement preparedStatement = connection.prepareStatement("select balance from account where acct=?");
         //为预编译参数赋值
-        preparedStatement.setInt(1, acct);
+        preparedStatement.setString(1, acct);
         //执行预编译语句
         ResultSet resultSet = preparedStatement.executeQuery();
         if (resultSet.next()) {
@@ -136,7 +136,7 @@ public final class AccountDao {
     }
 
     //转账
-    public boolean transfer(int outAcct, int inAcct, double amount) {
+    public boolean transfer(String outAcct, String inAcct, double amount) {
         Connection connection = null;
         PreparedStatement preparedStatement = null;
         boolean transfered = false;
@@ -150,12 +150,12 @@ public final class AccountDao {
                     double balanceOfOutAcctAfterTransfer = balanceOfOutAcctBeforeTransfer - amount;
                     preparedStatement = connection.prepareStatement("update account set balance = ? where acct = ?");
                     preparedStatement.setDouble(1, balanceOfOutAcctAfterTransfer);
-                    preparedStatement.setInt(2, outAcct);
+                    preparedStatement.setString(2, outAcct);
                     int affectOutAcct = preparedStatement.executeUpdate();
                     double balanceOfInAcctAfterTransfer = balanceOfInAcctBeforeTransfer + amount;
                     preparedStatement = connection.prepareStatement("update account set balance = ? where acct = ?");
                     preparedStatement.setDouble(1, balanceOfInAcctAfterTransfer);
-                    preparedStatement.setInt(2, inAcct);
+                    preparedStatement.setString(2, inAcct);
                     int affectInAcct = preparedStatement.executeUpdate();
                     if (affectOutAcct == 1 && affectInAcct == 1) {
                         transfered = true;
@@ -287,10 +287,8 @@ public final class AccountDao {
     //登录
     public Account login(String acct, String passwd) throws SQLException {
         Connection connection = JdbcHelper.getConn();
-        //写sql语句
-        String updateAccount_sql = "select * from account where acct=? and passwd=?";
         //在该连接上创建预编译语句对象
-        PreparedStatement preparedStatement = connection.prepareStatement(updateAccount_sql);
+        PreparedStatement preparedStatement = connection.prepareStatement("select * from account where acct=? and passwd=?");
         preparedStatement.setString(1, acct);
         preparedStatement.setString(2, passwd);
         ResultSet resultSet = preparedStatement.executeQuery();

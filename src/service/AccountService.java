@@ -23,7 +23,7 @@ public final class AccountService {
     public Account find(Integer id) throws SQLException, ClassNotFoundException {
         return accountDao.find(id);
     }
-    public Account findByAcct(int acct) throws SQLException {
+    public Account findByAcct(String acct) throws SQLException {
         return accountDao.findByAcct(acct);
     }
     public boolean changePassWord(Account account) throws SQLException, ClassNotFoundException {
@@ -33,7 +33,7 @@ public final class AccountService {
     public boolean saveOrDrawMoney(int acctId, Double balanceAfterSave) throws SQLException, ClassNotFoundException {
         return accountDao.saveOrDrawMoney(acctId, balanceAfterSave);
     }
-    public boolean transfer(int outAcct, int inAcct, double amount){
+    public boolean transfer(String outAcct, String inAcct, double amount){
         return accountDao.transfer(outAcct,inAcct,amount);
     }
 
@@ -52,7 +52,7 @@ public final class AccountService {
     public Account login(String username, String password) throws SQLException {
         return accountDao.login(username, password);
     }
-    public double findBalanceByAcct(Integer acct) throws SQLException {
+    public double findBalanceByAcct(String acct) throws SQLException {
         return accountDao.findBalanceByAcct(acct);
     }
 }

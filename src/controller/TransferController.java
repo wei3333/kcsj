@@ -19,18 +19,18 @@ import java.util.Date;
 public class TransferController extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String outAcct_str = request.getParameter("outAcct");
-        String inAcct_str = request.getParameter("inAcct");
+        String outAcct = request.getParameter("outAcct");
+        String inAcct = request.getParameter("inAcct");
         String amount_str = request.getParameter("amount");
         JSONObject message = new JSONObject();
         try {
-            if (outAcct_str == null && inAcct_str == null && amount_str == null) {
+            if (outAcct == null && inAcct == null && amount_str == null) {
                 message.put("message", "请正确输入账号");
-            } else if (inAcct_str.equals(outAcct_str)) {
+            } else if (inAcct.equals(outAcct)) {
                 message.put("message", "你不能给你自己转钱！");
             } else {
-                int outAcct = Integer.parseInt(outAcct_str);
-                int inAcct = Integer.parseInt(inAcct_str);
+                // int outAcct = Integer.parseInt(outAcct_str);
+                // int inAcct = Integer.parseInt(inAcct_str);
                 double amount = Double.parseDouble(amount_str);
                 boolean transfered = AccountService.getInstance().transfer(outAcct, inAcct, amount);
                 if (transfered) {

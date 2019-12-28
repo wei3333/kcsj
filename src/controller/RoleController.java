@@ -4,6 +4,7 @@ import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
 import dao.RoleDao;
 import domain.Role;
+import service.RoleService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -45,7 +46,7 @@ public class RoleController extends HttpServlet {
     private void responseRole(int id, HttpServletResponse response)
             throws ServletException, IOException, SQLException, ClassNotFoundException {
         //根据id查找
-        Role role = RoleDao.getInstance().find(id);
+        Role role = RoleService.getInstance().find(id);
         String role_json = JSON.toJSONString(role);
         //控制台打印结果
         //System.out.println(role_json);
@@ -57,7 +58,7 @@ public class RoleController extends HttpServlet {
     private void responseRoles(HttpServletResponse response)
             throws ServletException, IOException, SQLException {
         //获得所有
-        Collection<Role> roles = RoleDao.getInstance().findAll();
+        Collection<Role> roles = RoleService.getInstance().findAll();
         String roles_json = JSON.toJSONString(roles);
         //控制台打印结果
         //System.out.println(roles_json);

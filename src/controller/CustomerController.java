@@ -42,7 +42,7 @@ public class CustomerController extends HttpServlet {
             resp.put("message", "添加成功");
         } catch (SQLException e) {
             e.printStackTrace();
-            resp.put("message", "数据库操作异常");
+            resp.put("message", "未能添加，数据有误");
         } catch (Exception e) {
             e.printStackTrace();
             resp.put("message", "网络异常");

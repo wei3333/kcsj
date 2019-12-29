@@ -36,7 +36,7 @@ public class AccountController extends HttpServlet {
             }
         } catch (SQLException e) {
             e.printStackTrace();
-            message.put("message", "未能添加");
+            message.put("message", "未能添加，数据有误");
         } catch (Exception e) {
             e.printStackTrace();
             message.put("message", "网络异常");
